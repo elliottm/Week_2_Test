@@ -1,1 +1,21 @@
+Explain what the "upstream" remote is usually used for, in your own words
+
+The upstream remote is basically the continuation and tracking of the project branch in terms of a timeline and work input to the repository. Creating this upstream remote, keeps track of this original repository, since when you cloned the original repository, it's default remote 'origin' points to your fork on Gibhub of the original repository, and not the continuation of that time line.  In otherwards, the upstream remote tracks subsequent changes to the repository you have cloned in order to provide a more efficient working platform through ensuring you have taken into consideration subsequent changes to the project, since your original clone.
+
+Fuck up
+
+Explain what a branch is, in your own words
+
+Your master branch is essentially a current reality of your live version of software.  Say, perhaps the one that is operational. 
+
+A subsequent branch from this main master branch, is the development or furthering of the project e.g. the addition of extra code towards a second version of the software.
+
+Fuck up
+
 Explain what git clone does in your own words
+
+Answer ...
+
+Git clone, in reference to the my Github repository, pulls my repository from Github and essentially creates an exact replica within my local computer.  
+
+It does this my making an equivalent directory, runs the initialise 'git init' command, adds the remote origin and performs a git pull; dumping the files from the Github repository within the previously mentioned equivalent directory.
